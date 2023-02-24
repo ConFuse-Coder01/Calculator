@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+            <div class="calculator">
+            <div class="display">
+                <input type="text" class="screen"  id="output" placeholder="0">
+            </div>
+            
+            <div class="firstline">
+                <button onclick="clearOutput()"class="btn" id="back">CL</button>
+                <button onclick="del()"class="btn" id="delete">DEL</button>
+                <button onclick="display('%')" class="btn" id="percent">%</button>
+                <button  onclick="display('/')"class="btn" id="devide">/</button>
+            </div>
+            <div class="secondline">
+                <button onclick="display('7')" class="btn" id="seven">7</button>
+                <button  onclick="display('8')"class="btn" id="eight">8</button>
+                <button  onclick="display('9')"class="btn" id="nine">9</button>
+                <button  onclick="display('*')"class="btn" id="mul">*</button>
+            </div>
+            <div class="thirdline">
+                <button  onclick="display('4')"class="btn" id="four">4</button>
+                <button  onclick="display('5')"class="btn" id="five">5</button>
+                <button  onclick="display('6')"class="btn" id="six">6</button>
+                <button  onclick="display('-')"class="btn" id="minus">-</button>
+            </div>
+            <div class="fourthline">
+                <button onclick="display('1')" class="btn" id="one">1</button>
+                <button  onclick="display('2')"class="btn" id="two">2</button>
+                <button  onclick="display('3')"class="btn" id="three">3</button>
+                <button  onclick="display('+')"class="btn" id="plus">+</button>
+            </div>
+            <div class="fifthline">
+                <button  onclick="display('.')"class="btn" id="point">.</button>
+                <button  onclick="display('0')"class="btn" id="zero">0</button>
+                <button  onclick="calculate()" class="btn" id="equal">=</button>
+                
+            </div>
+        
+        </div>
+    </div>
+  
+ <script src="index.js"></script>   
+</body>
+
+</html>
